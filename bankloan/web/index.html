@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="bankcss.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+            <div id="main_div">
+                <h1><center><marquee>BANK LOAN MANAGEMENT SYSTEM</marquee></center></h1>
+                <h1><center> UNIVERSITY BANK </center></h1>
+                    <form action="formsubmitter1" method="post">
+                        <div id="left_div">
+                            <h1><center>APPLY LOAN </center></h1>
+                         
+                             <center>
+                                <input type="text" name="Name" placeholder="Name"/><br><br>
+                                <input type="text" name="Amount" placeholder="Amount" /><br><br>
+                                <input type="text" name="Aadhar" placeholder="Aadhar" /><br><br>
+                                <input type="text" name="PanNo" placeholder="PancardNo" /><br><br>
+                                <input type="text" name="LoanType" placeholder="LoanType" /><br><br>
+                                <input type ="submit" value="submit"/><br><br>
+                                </center>
+                         
+                            </div>
+                     </form>
+                    <div id="right_div">
+                    <h1><center>BANK MANAGER </center></h1>
+                     <form action="loginprovider" method="post">
+                            <center>
+                                <input type="text" name="Email" placeholder="username" /><br><br>
+                                <input type="text" name="Password" placeholder="password" /><br><br>
+                                <input type ="submit" value="Login"/><br><br>
+                            </center>
+                    </form>
+                    </div>
+            </div><!--main div -->
+    </body>
+</html>
